@@ -7,3 +7,8 @@
 # First we are going to greet the user.
 print ("Hello, World!")
 
+# Next, ask their fisrt name
+first_name = input()
+
+#Then say back the name
+print("Nice to meet you", first_name)
