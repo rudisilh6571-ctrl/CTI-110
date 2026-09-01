@@ -1,0 +1,23 @@
+# Holly Rudisill
+# M1LAB1
+# 08/20/2026
+# User info
+
+Hi, this is a file about me!
+
+I'm Holly and I attend CTI-110-003.
+
+My other course:
+ - NET 125 Networking
+ - NOS 110 Operating systems
+
+ Other interests:
+ - crocheting
+ - anime
+ - buying yarn
+
+ Class Name: CTI-110
+ 
+Something interesting about IT:
+- Building your own PC setup
+
