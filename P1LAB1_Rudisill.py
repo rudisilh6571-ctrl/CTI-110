@@ -7,7 +7,7 @@
 # First we are going to greet the user.
 print ("Hello, World!")
 
-# Next, ask their fisrt name
+# Next, ask their first name
 #print("What's your name?")
 first_name = input("Enter your first name? ")
 
