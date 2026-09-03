@@ -29,5 +29,9 @@ print("Welcome to the", product_name, "store.")
 print("We have", count, product_name, "(s) at $", f"{unit_price:.2f}", "per unit.") 
 print("Total cost for the all units is", f"${total:.2f}")
 
+#alternative method for two decimal places
+#print(f"We have" {count} {product_name}(s) at ${unit_price:.2f} per unit.) 
+#print(f"Total is: ${total:.2f}")
+
 
 
