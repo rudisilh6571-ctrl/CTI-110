@@ -5,6 +5,8 @@
 
 print("This program calculates and displays travel expenses")
 print()
+
+# Asking user to enter the values of the destination, budget, and 3 expenses
 budget = int(input("Enter Budget: "))
 print()
 travel_dest = input("Enter your travel destination: ")
@@ -18,6 +20,7 @@ food_money = int(input("Last, how much do you need for food? "))
 print()
 print("-----------------Travel Expenses------------------")
 
+# Displaying the values that the user inputted
 print(f"Location: {travel_dest}")
 print(f"Initial Budget: {budget}")
 print()
@@ -26,9 +29,11 @@ print(f"Fuel: {gas_money}")
 print(f"Accomodation: {accomodations}")
 print(f"Food: {food_money}")
 print()
-expenses =  gas_money + accomodations + food_money 
 
+# Calculating expenses and remaining budget after expenses are added together
+expenses =  gas_money + accomodations + food_money 
 remaining = budget - expenses
 print()
+
+# Displaying the remainder of the user's travel budget
 print(f"Remaining Balance: {remaining}")
-#print(f"{base_value} to the {exponent} power is {result} !!")1200
