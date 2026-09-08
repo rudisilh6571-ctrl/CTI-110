@@ -3,6 +3,8 @@
 # P1HW1
 # Write code that collects information from user, processes information collected and display results to user
 
+print("-----Calculating Exponents-----")
+print()
 # Part 1 Calculating  Exponents
 
 base_value = int(input("Enter integer as the base value: "))
@@ -14,6 +16,8 @@ print(base_value, "raised to the power of", exponent, "is", result, "!!")
 # Antoher way to print the result.   print(f"{base_value} to the {exponent} power is {result} !!")
 
 print() 
+print()
+print("-----Addition and Subtraction-----")
 print()
 # Part 2 Addition and Subtraction
 # 3 numbers, start, add_this, sub_this
