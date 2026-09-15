@@ -13,21 +13,21 @@ thisdict = {
   "Silverado": 26
 }
 
+# Get keys from dictionary
 keys = thisdict.keys()
-
-model = input("Enter a vehicle to see its mpg: ")
-mpg = thisdict.values()
-distance = float(input("How many miles will you drive the ", get.model, " ? "))
-
-# processing - calculate the amount of gas need to drive the miles the user inputs
-
-gallons = mpg * distance
-
-
-# output
-
 print(keys)
+print()
+# First input output pair, Model and MPH for that Model
+model = input("Enter a vehicle to see its mpg: ")
+print()
+mpg = thisdict[model]
+print(f"The {model} gets {mpg:.2f} mpg.")
+print()
 
-print(f"The {model} gets {mpg:.2f} .")
+# Ask for user input on how many miles they will drive
+distance = float(input(f"How many miles will you drive the {model}? "))
+print()
 
-print(f"{gallons:.2f}(s), of gas are needed to drive the {model} {distance} miles.")
+# processing - calculate the amount of gas need to drive the miles the user inputs and output results
+gallons = distance / mpg 
+print(f"{gallons:.2f} gallons(s), of gas are needed to drive the {model} {distance} miles.")
