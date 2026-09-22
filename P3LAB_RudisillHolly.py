@@ -14,9 +14,10 @@ if amount == 0.00:
 
 elif amount > 0.00:
     print(f"Larger than 1")
-    """
-    else
-        if quarters > amount .00
+
+else
+    print("No change")
+'''
 dollars = amount
 quarters =
 dimes = 
