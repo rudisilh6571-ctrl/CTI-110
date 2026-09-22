@@ -5,19 +5,32 @@
 
 # User Input
 amount = float(input("Enter the amount of money as a float: $"))
-
-
+dollars = amount // 1
+print(f"{dollars}")
+remainder = amount % 1   
+print(f"{remainder}")
+quarters = remainder / .25
+quarters % 1
+print(f"{quarters}")
 #if else statements to get the right output for each denomination of money
 
-if amount == 0.00:
-    print("No change")
+"""
+if dollars == 1:
+    print(f"{dollars:.0f} Dollar")
+else:
+    print(f"{dollars:.0f} Dollars")
+"""
+#if quarters < 1:
+   # print(f"{quarters:.0f} Quarter")
+#else:
+    #print(f"{quarters:.0f} Quarters")
 
-elif amount > 0.00:
-    print(f"Larger than 1")
+#elif amount > 0.00:
+    #print(f"Larger than 1")
 
-else
-    print("No change")
-'''
+#else
+    #print("No change")
+"""
 dollars = amount
 quarters =
 dimes = 
