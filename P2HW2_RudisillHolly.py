@@ -25,12 +25,12 @@ average = sum(grade_list) / len(grade_list)
 
 
 # Print the result of the grade lowest, highest, sum, and average and format the output
-print(('-') * 12, "Results", ('-') * 12)
+print("------------Results------------")
 
-print(f"{"Lowest Grade":21s} {lowest_grade}")
-print(f"{"Highest Grade":21s} {highest_grade}")
-print(f"{"Sum of Grades":21s} {sum_grades}")
-print(f"{"Average":21s} {average:.2f}")
+print(f"{"Lowest Grade:":21s} {lowest_grade}")
+print(f"{"Highest Grade:":21s} {highest_grade}")
+print(f"{"Sum of Grades:":21s} {sum_grades}")
+print(f"{"Average:":21s} {average:.2f}")
 
 
 print(('-') * 40)
