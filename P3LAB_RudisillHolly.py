@@ -48,4 +48,4 @@ if pennies == 1:
 elif pennies > 1:
     print(f"{pennies} Pennies")
 elif dollars == 0:
-    print("No change")
+    print("No change")  #if user inputs 0.00 this is the only thing that prints
