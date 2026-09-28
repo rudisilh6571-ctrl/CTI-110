@@ -13,12 +13,15 @@ print(('-') * 37)
 
 regularpay = numofhours * payrate
 overtime = numofhours % 40
-overtimepay = overtime * 1.5 * payrate
-grosspay = overtimepay + regularpay
+if numofhours > 40:
+    overtimepay = overtime * 1.5 * payrate
+    grosspay = overtimepay + regularpay
+else:
+    print("No overtime pay for this pay period.")
 
 
 print(f"{"Employee name: ":16s} {name}")
 print("")
-print("Hours Worked     Pay Rate     OverTime     OverTime Pay     RegHour Pay     Gross Pay")
-print(('-') * 60)
-print(f"{numofhours:<12.2f} {payrate:<18.2f} {overtime} {overtimepay} {regularpay} {grosspay}")
+print(f"{"Hours Worked":<12}     {"Pay Rate":<8}     {"OverTime":<8}     {"OverTime Pay":<10}     {"RegHour Pay":<10}     {"Gross Pay":<10}")
+print(('-') * 95)
+print(f"{numofhours:<16.1f} {payrate:<12.1f} {overtime:<12.1f} {overtimepay:<16.2f} {regularpay:<15.2f} {grosspay:<12.2f}")
