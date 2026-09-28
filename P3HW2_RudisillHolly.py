@@ -1,25 +1,25 @@
 # Holly Rudisill
-# 09/24/2026
-# P3HW1
-# formatting employee's pay 
+# 09/28/2026
+# P3HW2
+# Salary calculator
 
-# inputing employees values
+# Request employees info
 name = input("Enter employee's name: ")
 numofhours = int(input("Enter number of hours worked: "))
 payrate = float(input("Enter employee's payrate: "))
 print(('-') * 37)
 
 # calculate the overtime and regular pay for the employee
-
-regularpay = numofhours * payrate
-overtime = numofhours % 40
 if numofhours > 40:
+    overtime = numofhours % 40
     overtimepay = overtime * 1.5 * payrate
+    regularpay = 40 * payrate
     grosspay = overtimepay + regularpay
 else:
-    print("No overtime pay for this pay period.")
+    regularpay = numofhours * payrate
+    grosspay = numofhours * payrate
 
-
+#print all employees payrate and gloss pay with formatting 
 print(f"{"Employee name: ":16s} {name}")
 print("")
 print(f"{"Hours Worked":<12}     {"Pay Rate":<8}     {"OverTime":<8}     {"OverTime Pay":<10}     {"RegHour Pay":<10}     {"Gross Pay":<10}")
