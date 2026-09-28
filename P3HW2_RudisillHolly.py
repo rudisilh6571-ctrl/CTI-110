@@ -9,12 +9,13 @@ numofhours = int(input("Enter number of hours worked: "))
 payrate = float(input("Enter employee's payrate: "))
 print(('-') * 37)
 
-# calculate the overtime and regular pay for the employee
+# calculate the overtime if there is overtime to be calculated
 if numofhours > 40:
     overtime = numofhours % 40
     overtimepay = overtime * 1.5 * payrate
     regularpay = 40 * payrate
     grosspay = overtimepay + regularpay
+# calculate just the gross pay and non overtime pay
 else:
     regularpay = numofhours * payrate
     grosspay = numofhours * payrate
