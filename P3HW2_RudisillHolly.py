@@ -19,10 +19,12 @@ if numofhours > 40:
 else:
     regularpay = numofhours * payrate
     grosspay = numofhours * payrate
+    overtime = numofhours % 40
+    overtimepay = 0
 
 #print all employees payrate and gloss pay with formatting 
 print(f"{"Employee name: ":16s} {name}")
 print("")
 print(f"{"Hours Worked":<12}     {"Pay Rate":<8}     {"OverTime":<8}     {"OverTime Pay":<10}     {"RegHour Pay":<10}     {"Gross Pay":<10}")
 print(('-') * 95)
-print(f"{numofhours:<16.1f} {payrate:<12.1f} {overtime:<12.1f} {overtimepay:<16.2f} {regularpay:<15.2f} {grosspay:<12.2f}")
+print(f"{numofhours:<16.1f} {payrate:<12.1f} {overtime:<12.1f} {overtimepay:<16.2f} ${regularpay:<15.2f} ${grosspay:<12.2f}")
