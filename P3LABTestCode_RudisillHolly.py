@@ -1,4 +1,4 @@
-# HOlly Rudisil
+# Holly Rudisil
 # #P3LAB
 # 09/24/2026
 # Test potion code to understand how to use floor division and modulo
