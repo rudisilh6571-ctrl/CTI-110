@@ -47,10 +47,10 @@ else:
 # Print the result of the grade lowest, modified list, average of the scores, and letter grade of the average and format the output
 print("--------------Results------------")
 
-print(f"{"Lowest Grade":<13} {":"} {lowest_grade}")
-print(f"{"Modified List":<13} {":"} {modified_list}")
-print(f"{"Scores Average":<13} {":"} {average:.2f}")
-print(f"{"Grade":<13} {":"} {grade_letter}")
+print(f"{"Lowest Grade":<14} {":"} {lowest_grade}")
+print(f"{"Modified List":<14} {":"} {modified_list}")
+print(f"{"Scores Average":<14} {":"} {average:.2f}")
+print(f"{"Grade":<14} {":"} {grade_letter}")
 
 
 print(('-') * 40)
