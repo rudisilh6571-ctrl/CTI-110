@@ -1,26 +1,21 @@
 # Holly Rudisill
-# 10/8/2026
-# P4HW1
-# Write a program that asks the user to enter test grades for the following modules, using a separate input statement for each one
-
-# Ask user to each module grade
+# Test file for P4HW1
 
 numof_scores = int(input("How many score do you want to enter? "))
+#while num_scores <= num_scores:
 
-
-    # looping thru number of grade user will enter
 grade_list = []
-
+# looping thru number of grade user will enter
 for scores in range(1, numof_scores + 1):
-    for num in grade_list:
+    if scores <= 100 and scores >= 0:
         # Storing all the grades in a list
-        grade_list.append(float(input(f"Enter score #{scores} "))) 
-        num = grade_list()        
-while num < 0 or num > 100:
-    print("INVALID score entered!")
-    print("Score should be between 0 and 100.")    
-        
-        
+        grade_list.append(float(input(f"Enter score #{scores} ")))
+    else:    
+        print("INVALID score entered!")
+        print("Score should be between 0 and 100.")
+
+
+
 
 # test to make sure list is printing correctly
 # print(f"{grade_list}")
@@ -48,11 +43,10 @@ else:
 # Print the result of the grade lowest, modified list, average of the scores, and letter grade of the average and format the output
 print("--------------Results------------")
 
-print(f"{"Lowest Grade":<13} {":"} {lowest_grade}")
-print(f"{"Modified List":<13} {":"} {modified_list}")
-print(f"{"Scores Average":<13} {":"} {average:.2f}")
-print(f"{"Grade":<13} {":"} {grade_letter}")
+print(f"{"Lowest Grade":<14} {":"} {lowest_grade}")
+print(f"{"Modified List":<14} {":"} {modified_list}")
+print(f"{"Scores Average":<14} {":"} {average:.2f}")
+print(f"{"Grade":<14} {":"} {grade_letter}")
 
 
 print(('-') * 40)
-
