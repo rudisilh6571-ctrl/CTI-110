@@ -7,13 +7,14 @@
 
 print("Program Running with positive integer input")
 user = "yes"
-while user == "yes":   # runs the program if user is yes
-    number = int(input("Enter an integer: "))
+while user != "no":   # runs the program if user is yes
+    number = int(input("Enter an integer: ")) # asks user for input
     i = 1
-    if number >= 0:
-        for i in range(1 , 13):
-            total = number * i
-            print(f"{number} * {i} = {total}")
-        user = input("Would you like to run the program again? ")
+    if number >= 0: # if user input is >= 0 run the calculations
+        for i in range(1 , 13): # set it to range 1 thru 12 to multiply with user input
+            total = number * i # calculations for multiplication table with users positive integer
+            print(f"{number} * {i} = {total}") # show multiplication table
+        user = input("Would you like to run the program again? ") # request to see if user would like to run the program again
     else:
-        print("This program does not handle negative numbers.")
+        print("This program does not handle negative numbers.") # prints if user choose number less than 0
+print("Exiting program...") # exits program if user does not choose yes for running the program again 
