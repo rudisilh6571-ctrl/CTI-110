@@ -4,21 +4,22 @@
 # Write a program that asks the user to enter test grades for the following modules, using a separate input statement for each one
 
 # Ask user to each module grade
-
 numof_scores = int(input("How many score do you want to enter? "))
 
-
-    # looping thru number of grade user will enter
 grade_list = []
 
 for scores in range(1, numof_scores + 1):
-    for num in grade_list:
-        # Storing all the grades in a list
-        grade_list.append(float(input(f"Enter score #{scores} "))) 
-        num = grade_list()        
-while num < 0 or num > 100:
-    print("INVALID score entered!")
-    print("Score should be between 0 and 100.")    
+
+    # Storing all the grades in a list
+    grade = float(input(f"Enter score #{scores}: "))
+    # num = grade_list()        
+    while grade < 0 or grade > 100:
+        print()
+        print("INVALID score entered!!!!")
+        print("Score should be between 0 and 100")
+        grade = float(input(f"Enter score #{scores} again: "))
+    grade_list.append(grade)
+print()    
         
         
 
@@ -28,6 +29,9 @@ while num < 0 or num > 100:
 # Calculate the grades, lowest, modified list, and average
 
 lowest_grade = min(grade_list)
+# drop the lowest score and then do average score and modified list
+grade_list.remove(lowest_grade)
+# list printed without lowest score
 modified_list = (grade_list)
 average = sum(grade_list) / len(grade_list)
 # grade_letter = (grade_list) did not need to calcute grade letter using if/elif statement instead
@@ -48,10 +52,10 @@ else:
 # Print the result of the grade lowest, modified list, average of the scores, and letter grade of the average and format the output
 print("--------------Results------------")
 
-print(f"{"Lowest Grade":<13} {":"} {lowest_grade}")
-print(f"{"Modified List":<13} {":"} {modified_list}")
-print(f"{"Scores Average":<13} {":"} {average:.2f}")
-print(f"{"Grade":<13} {":"} {grade_letter}")
+print(f"{"Lowest Grade":14s} {":"} {lowest_grade}")
+print(f"{"Modified List":14s} {":"} {modified_list}")
+print(f"{"Scores Average":14s} {":"} {average:.2f}")
+print(f"{"Grade":14s} {":"} {grade_letter}")
 
 
 print(('-') * 40)
