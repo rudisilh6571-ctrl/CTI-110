@@ -19,7 +19,7 @@ if numofhours > 40:
 else:
     regularpay = numofhours * payrate
     grosspay = numofhours * payrate
-    overtime = numofhours % 40
+    overtime = numofhours // 40
     overtimepay = 0
 
 #print all employees payrate and gloss pay with formatting 
