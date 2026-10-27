@@ -1,7 +1,7 @@
 # Holly Rudisill
 # 10/27/2026
 # P5T: The Potion Pouch
-# turn changekeep into a function 
+# turn potion pouch into a function 
 
 # This is the potion ritual from The Changekeeper (Potions tab).
 # It is the same // and % pattern as your P3LAB, with two potions:
