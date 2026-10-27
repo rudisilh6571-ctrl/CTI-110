@@ -5,7 +5,7 @@
 
 # User Input
 amount = float(input("Enter the amount of money as a float: $"))
-amount = round (amount * 100)
+amount = round(amount * 100)
 
 # calculates the input and multiples by 100 to give a whole number
 dollars = amount // 100

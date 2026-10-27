@@ -2,7 +2,7 @@ Complete CTI-120 Tools of the Trade Module 2 | 10/25/2026 | pending
 CTI 110 Tools of the Trade Module 2 | 10/25/2026 | pending
 NET 126 CCNA Checkpoint 1 | 10/26/2026 | pending
 NET 126 Cisco CCNA Checkpoint 1 | 10/26/2026 | pending
-Complete CTI-110 LLM Lab1 10/27/2026 | 10/27/2026 | pending
+Complete CTI-110 LLM Lab1 10/27/2026 | 10/27/2026 | done
 CTI 110 AI quiz | 10/30/2026 | pending
 Complete CTI-120 Tool of the Trade Module 4 | 11/01/2026 | pending
 Complete CTI-120 Tools of the Trade Module 3 | 11/01/2026 | pending
