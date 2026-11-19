@@ -1,0 +1,24 @@
+{
+  "vault": 0,
+  "lifetime": 0,
+  "level": 1,
+  "streak_weeks": 0,
+  "week_start": "2026-11-15",
+  "fifth_paid": false,
+  "quest_target": 0,
+  "quest_awarded": false,
+  "chests": [],
+  "pity": 0,
+  "inventory": [],
+  "claimed": [],
+  "yarn_spent": 0.0,
+  "badges": {},
+  "stats": {
+    "crits": 0,
+    "chests_opened": 0,
+    "fifth_ever": false
+  },
+  "comeback_pending": false,
+  "done_log": [],
+  "next_id": 1
+}
