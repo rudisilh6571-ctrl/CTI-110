@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Finish CTI 110 final project",
+    "size": "boss",
+    "due": "2026-12-01",
+    "done": false,
+    "added_on": "2026-11-24",
+    "completed_on": null,
+    "completed_at": null,
+    "points_earned": 0,
+    "chest_awarded": false
+  },
+  {
+    "id": 2,
+    "title": "make dinner, small, 11/24",
+    "size": "small",
+    "due": "2026-11-24",
+    "done": false,
+    "added_on": "2026-11-24",
+    "completed_on": null,
+    "completed_at": null,
+    "points_earned": 0,
+    "chest_awarded": false
+  },
+  {
+    "id": 3,
+    "title": "CTI 120 complete course",
+    "size": "boss",
+    "due": "2026-12-01",
+    "done": false,
+    "added_on": "2026-11-24",
+    "completed_on": null,
+    "completed_at": null,
+    "points_earned": 0,
+    "chest_awarded": false
+  },
+  {
+    "id": 4,
+    "title": "Crochet a hat",
+    "size": "small",
+    "due": "2026-12-01",
+    "done": false,
+    "added_on": "2026-11-24",
+    "completed_on": null,
+    "completed_at": null,
+    "points_earned": 0,
+    "chest_awarded": false
+  }
+]
